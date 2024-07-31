@@ -1,0 +1,11 @@
+{
+  "fa": {
+    "phoneNumberIsNotCorrect": "شماره موبایل باید ۱۱ رقم باشد",
+    "phoneNumberIsRequired": "شماره تلفن الزامی است",
+    "passwordIsRequired": "رمز عبور الزامی است",
+    "passwordTooShort": "رمز عبور باید حداقل ۸ کاراکتر باشد",
+    "passwordTooLong": "رمز عبور باید حداکثر ۳۲ کاراکتر باشد",
+    "fundsName": "نام صندوق",
+    "downloadFile": "دانلود فایل"
+  }
+}

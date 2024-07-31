@@ -1,0 +1,24 @@
+generator client {
+  provider      = "prisma-client-js"
+  binaryTargets = ["native", "windows"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model user {
+  id                Int     @id(map: "PK_cace4a159ff9f2512dd42373760") @default(autoincrement())
+  firstName         String  @db.VarChar
+  lastName          String  @db.VarChar
+  phoneNumber       String  @db.VarChar
+  email             String? @db.VarChar
+  nationalId        String? @db.VarChar
+  password          String  @db.VarChar
+  authorities       String  @db.VarChar
+  isAdmin           Boolean @default(false)
+  nanoId            String  @db.VarChar
+  token             String? @db.VarChar
+  verificationToken String? @db.VarChar
+}
